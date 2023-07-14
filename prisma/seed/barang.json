@@ -1,0 +1,58 @@
+[
+    {
+        "id": "e9fc4204-ec11-47d8-a6cf-7f62bf89dbdf",
+        "nama": "Baju kerah biru",
+        "harga": 45000,
+        "stok": 10,
+        "kode": "BAJU1",
+        "perusahaan_id": "8deeac74-6aea-4548-a81f-f83c5eef514c"
+    },
+    {
+        "id": "8dd4a356-45ce-4e10-807f-c23ed995dc56",
+        "nama": "Baju polo abu-abu",
+        "harga": 45000,
+        "stok": 5,
+        "kode": "BAJU2",
+        "perusahaan_id": "95fdd1ee-34fb-4275-be07-90269c51663f"
+    },
+    {
+        "id": "ab5fefdc-6234-4a6a-9533-4cae8474e7f8",
+        "nama": "Kemeja hitam",
+        "harga": 70000,
+        "stok": 15,
+        "kode": "KEMEJA1",
+        "perusahaan_id": "a9b52133-1be0-473b-a0b0-678af5e962bd"
+    },
+    {
+        "id": "c3bec32e-51ed-41a6-b05d-96b8d9cf68cc",
+        "nama": "Jeans robek",
+        "harga": 100000,
+        "stok": 20,
+        "kode": "CELANA1",
+        "perusahaan_id": "95fdd1ee-34fb-4275-be07-90269c51663f"
+    },
+    {
+        "id": "cbba4046-f081-4768-8704-1a033cb2cc60",
+        "nama": "Baju katun polos",
+        "harga": 85000,
+        "stok": 7,
+        "kode": "BAJU3",
+        "perusahaan_id": "8deeac74-6aea-4548-a81f-f83c5eef514c"
+    },
+    {
+        "id": "a9a078a4-367f-44f4-9c13-2a656ec104c7",
+        "nama": "Jaket pink",
+        "harga": 150000,
+        "stok": 2,
+        "kode": "JAKET1",
+        "perusahaan_id": "a9b52133-1be0-473b-a0b0-678af5e962bd"
+    },
+    {
+        "id": "4c1ee664-8e9c-489a-b11c-6ecbbfbd8dfa",
+        "nama": "Sendal crocs",
+        "harga": 30000,
+        "stok": 47,
+        "kode": "SENDAL1",
+        "perusahaan_id": "95fdd1ee-34fb-4275-be07-90269c51663f"
+    }
+]
