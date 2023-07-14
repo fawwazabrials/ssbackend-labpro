@@ -4,14 +4,15 @@ const prisma = new PrismaClient();
 const selectData = {
 	id: true,
 	nama: true,
-	alamat: true,
-	no_telp: true,
+	harga: true,
+	stok: true,
 	kode: true,
+	perusahaan_id: true,
 };
 
 module.exports = Object.freeze({
-	find: async (q) =>
-		prisma.perusahaan.findMany({
+	find: async (q, perusahaan) =>
+		prisma.barang.findMany({
 			select: selectData,
 			where: {
 				OR: [
@@ -28,45 +29,50 @@ module.exports = Object.freeze({
 						},
 					},
 				],
+				perusahaan: {
+					nama: perusahaan,
+				},
 			},
 		}),
 	findById: async (id) =>
-		prisma.perusahaan.findUnique({
+		prisma.barang.findUnique({
 			select: selectData,
 			where: {
 				id,
 			},
 		}),
 	findByKode: async (kode) =>
-		prisma.perusahaan.findUnique({
+		prisma.barang.findUnique({
 			select: selectData,
 			where: {
 				kode,
 			},
 		}),
-	create: async (nama, alamat, no_telp, kode) =>
-		prisma.perusahaan.create({
+	create: async (nama, harga, stok, perusahaan_id, kode) =>
+		prisma.barang.create({
 			select: selectData,
 			data: {
 				nama,
-				alamat,
-				no_telp,
+				harga,
+				stok,
+				perusahaan_id,
 				kode,
 			},
 		}),
-	update: async (id, nama, alamat, no_telp, kode) =>
-		prisma.perusahaan.update({
+	update: async (id, nama, harga, stok, perusahaan_id, kode) =>
+		prisma.barang.update({
 			select: selectData,
 			where: { id },
 			data: {
 				nama,
-				alamat,
-				no_telp,
+				harga,
+				stok,
+				perusahaan_id,
 				kode,
 			},
 		}),
 	remove: async (id) =>
-		prisma.perusahaan.delete({
+		prisma.barang.delete({
 			select: selectData,
 			where: { id },
 		}),

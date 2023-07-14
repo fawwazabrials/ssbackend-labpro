@@ -16,6 +16,7 @@ app.use(
 
 // Routes
 app.use("/perusahaan", require("./routes/perusahaanRoutes"));
+app.use("/barang", require("./routes/barangRoutes"));
 
 // Error handler
 app.use(errorHandler);

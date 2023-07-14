@@ -31,7 +31,7 @@ const getPerusahaanByKode = async (kode) => {
 };
 
 const createPerusahaan = async (nama, alamat, no_telp, kode) => {
-	if (!verifyKode(kode) || getPerusahaanByKode(kode)) {
+	if (!verifyKode(kode) || (await getPerusahaanByKode(kode))) {
 		throw createError(
 			400,
 			"Kode perusahaan must be a unique all uppercase three letters long string"
@@ -43,7 +43,7 @@ const createPerusahaan = async (nama, alamat, no_telp, kode) => {
 
 const updatePerusahaan = async (id, nama, alamat, no_telp, kode) => {
 	await getPerusahaanById(id);
-	if (!verifyKode(kode)) {
+	if (!verifyKode(kode) || (await getPerusahaanByKode(kode)).id != id) {
 		throw createError(
 			400,
 			"Kode perusahaan must be a unique all uppercase three letters long string"

@@ -107,5 +107,5 @@ module.exports = {
 	getPerusahaanById,
 	createPerusahaan,
 	updatePerusahaan,
-    deletePerusahaan
+	deletePerusahaan,
 };
