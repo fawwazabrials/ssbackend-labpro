@@ -18,11 +18,13 @@ module.exports = Object.freeze({
 					{
 						nama: {
 							contains: q,
+							mode: 'insensitive', 
 						},
 					},
 					{
 						kode: {
 							contains: q,
+							mode: 'insensitive', 
 						},
 					},
 				],
