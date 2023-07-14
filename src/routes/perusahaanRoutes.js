@@ -8,8 +8,6 @@ const {
 } = require("../controllers/perusahaanController");
 const router = express.Router();
 
-const dummy = (req, res) => res.send({ message: "tes" });
-
 // GET POST /perusahaan
 router.route("/").get(getPerusahaan).post(createPerusahaan);
 
