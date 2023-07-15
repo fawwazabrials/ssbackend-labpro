@@ -29,9 +29,7 @@ module.exports = Object.freeze({
 						},
 					},
 				],
-				perusahaan: {
-					nama: perusahaan,
-				},
+				perusahaan_id: perusahaan,
 			},
 		}),
 	findById: async (id) =>
