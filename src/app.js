@@ -15,6 +15,7 @@ app.use(
 );
 
 // Routes
+app.use("/", require("./routes/authRoutes"));
 app.use("/perusahaan", require("./routes/perusahaanRoutes"));
 app.use("/barang", require("./routes/barangRoutes"));
 
