@@ -1,12 +1,9 @@
 const jwt = require("jsonwebtoken");
 const createError = require("../utils/createError");
+const { getAdmin } = require("../repository/adminRepository");
 
 // hardcoded admin credentials
-const admin = {
-	username: "admin",
-	name: "Admin",
-	password: "admin",
-};
+const admin = getAdmin();
 
 const verifyAdminCredentials = (username, password) => {
 	return username == admin.username && password == admin.password;

@@ -6,6 +6,16 @@ const perusahaan = require("./perusahaan.json");
 // perusahaan = JSON.parse(perusahaan);
 
 async function main() {
+	await prisma.admin.upsert({
+		where: { username },
+		update: {},
+		create: {
+			username: "admin",
+			nama: "Admin Nih Gan",
+			password: "admin",
+		},
+	});
+
 	for (let i = 0; i < perusahaan.length; i++) {
 		const { id, nama, alamat, no_telp, kode } = perusahaan[i];
 		console.log(

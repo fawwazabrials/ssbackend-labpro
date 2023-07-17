@@ -1,5 +1,4 @@
-const { PrismaClient } = require("@prisma/client");
-const prisma = new PrismaClient();
+import prisma from '../../lib/db';
 
 const selectData = {
 	id: true,

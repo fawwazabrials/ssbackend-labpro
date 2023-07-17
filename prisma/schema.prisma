@@ -29,3 +29,9 @@ model Barang {
   perusahaan_id String
   perusahaan    Perusahaan @relation(fields: [perusahaan_id], references: [id], onDelete: Cascade)
 }
+
+model Admin {
+  username String @id
+  nama     String
+  password String
+}
