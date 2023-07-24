@@ -7,7 +7,7 @@ const perusahaan = require("./perusahaan.json");
 
 async function main() {
 	await prisma.admin.upsert({
-		where: { username },
+		where: { username: "admin" },
 		update: {},
 		create: {
 			username: "admin",

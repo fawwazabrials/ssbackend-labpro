@@ -1,4 +1,4 @@
-import prisma from '../../lib/db';
+const prisma = require("../../prisma/db");
 
 const selectData = {
 	id: true,

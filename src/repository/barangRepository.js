@@ -1,4 +1,4 @@
-import prisma from '../../lib/db';
+const prisma = require("../../prisma/db");
 
 const selectData = {
 	id: true,
@@ -13,6 +13,11 @@ module.exports = Object.freeze({
 	find: async (q, perusahaan) =>
 		prisma.barang.findMany({
 			select: selectData,
+			orderBy: [
+				{
+					id: "desc",
+				},
+			],
 			where: {
 				OR: [
 					{

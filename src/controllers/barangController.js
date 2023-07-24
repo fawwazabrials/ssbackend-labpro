@@ -72,10 +72,11 @@ const createBarang = asyncHandler(async (req, res) => {
 const updateBarang = asyncHandler(async (req, res) => {
 	const id = req.params.id;
 	const { nama, harga, stok, perusahaan_id, kode } = req.body;
-	if (!nama || !harga || !stok || !perusahaan_id || !kode) {
+	// console.log(nama, harga, stok, perusahaan_id, kode);
+	if (!nama || !harga || stok<0 || !perusahaan_id || !kode) {
 		throw createError(
 			400,
-			"Request must include nama, harga, stok, perusahaan_id and kode"
+			"Request must include correct nama, harga, stok, perusahaan_id and kode"
 		);
 	}
 	const result = await barangService.updateBarang(
