@@ -10,6 +10,12 @@ const authorization = (req, res, next) => {
 		throw createError(403, "You don't have permission to access this");
 	}
 
+	if (token == env("MONOLITH_TOKEN")) {
+		req.username = result.username;
+        req.name = result.name;
+        next();
+	}
+
 	try {
 		const result = verifyJWTToken(token);
         req.username = result.username;
