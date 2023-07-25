@@ -14,7 +14,7 @@ const authorization = (req, res, next) => {
 		token = token.split(' ')[1]
 	}
 
-	// console.log(token);
+	console.log(token);
 
 	if (token == process.env.MONOLITH_TOKEN) {
 		req.username = result.username;
