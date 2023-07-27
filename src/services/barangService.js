@@ -43,9 +43,9 @@ const createBarang = async (nama, harga, stok, perusahaan_id, kode) => {
 const updateBarang = async (id, nama, harga, stok, perusahaan_id, kode) => {
 	await getBarangById(id);
 	await getPerusahaanById(perusahaan_id);
-	if ((await getBarangKode(kode)).id != id) {
-		throw createError(400, "Kode barang must be unique");
-	}
+	// if ((await getBarangKode(kode)).id != id) {
+	// 	throw createError(400, "Kode barang must be unique");
+	// }
 	const result = await update(id, nama, harga, stok, perusahaan_id, kode);
 	return result;
 };

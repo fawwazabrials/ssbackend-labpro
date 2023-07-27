@@ -54,5 +54,277 @@
         "stok": 47,
         "kode": "SENDAL1",
         "perusahaan_id": "95fdd1ee-34fb-4275-be07-90269c51663f"
+    },
+    {
+        "id": "fe6f6bf7-ace1-491f-ade1-9cc9a90481df",
+        "nama": "Samsung Galaxy Tab A7 Lite Wifi 3GB/32GB - Gray",
+        "harga": 1899000,
+        "stok": 50,
+        "kode": "TAB1",
+        "perusahaan_id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24"
+    },
+    {
+        "id": "f79e82e9-a181-43e0-a9cb-a4f0f1aed35d",
+        "nama": "The Jakarta Method, Reprint edition - PublicAffairs Publishers",
+        "harga": 324000,
+        "stok": 100,
+        "kode": "BUKU5",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "f61a8f10-648d-4267-a645-c50911a64298",
+        "nama": "Project Hail Mary - Ballantine Books Publishers",
+        "harga": 285000,
+        "stok": 100,
+        "kode": "BUKU6",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "f4552643-9e36-45f9-ad46-a3373d7b5b98",
+        "nama": "Samsung Galaxy Z Fold5 12/512GB Smartphone",
+        "harga": 24999900,
+        "stok": 50,
+        "kode": "HP1",
+        "perusahaan_id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24"
+    },
+    {
+        "id": "f3a5bbc8-7c9d-46d1-b107-67888f2e3b25",
+        "nama": "I Am Strong - Hardie Grant Publishers",
+        "harga": 199000,
+        "stok": 100,
+        "kode": "BUKU2",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "f26110c8-da9c-4c9a-bd98-25abce594a20",
+        "nama": "Lenovo Legion Slim 7 16 RTX4060 i7-13900H 16GB 1TB SSD 16\" 3.2k 165Hz - NON BUNDLE, 16GB",
+        "harga": 28889000,
+        "stok": 10,
+        "kode": "LAPTOP5",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "ebe15428-5ad4-4f5f-813d-dae566d6c7b3",
+        "nama": "Samsung Galaxy S21 FE 5G 8GB/128GB",
+        "harga": 6934000,
+        "stok": 50,
+        "kode": "HP3",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "de0be5d7-25ac-4701-b7a9-6212b159f02a",
+        "nama": "LENOVO IDEAPAD SLIM 3i I5-1235U 8/16GB 512SSD IRISXE W11+OHS 14.0FHD - Non Bundle, 8 gb",
+        "harga": 8739000,
+        "stok": 20,
+        "kode": "LAPTOP4",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "d853a997-fd61-481e-9873-35e2f93b586c",
+        "nama": "Laptop Lenovo V14 G2 GEN 12 INTEL CORE i3 1215U RAM 12GB 256 SSD 14 HD - Non Bundle, 4GB 256SSD DOS",
+        "harga": 5299000,
+        "stok": 20,
+        "kode": "LAPTOP3",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "d23ed14f-aef7-4fe6-bbf0-2bd781c2544e",
+        "nama": "Bumi Manusia oleh Pramoedya Ananta Toer",
+        "harga": 100,
+        "stok": 90000,
+        "kode": "BUKU10",
+        "perusahaan_id": "c756b227-7aed-4a48-a326-9b155c18b42b"
+    },
+    {
+        "id": "d0d2afeb-dcdf-4b8a-9773-791e0bed5376",
+        "nama": "The Geography of Genius - Simon & Schuster Publishers",
+        "harga": 160000,
+        "stok": 100,
+        "kode": "BUKU8",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "c1b993c7-28e1-4d62-b97f-b4267510e8ac",
+        "nama": "Arok Dedes oleh Pramoedya Ananta Toer",
+        "harga": 75000,
+        "stok": 100,
+        "kode": "BUKU13",
+        "perusahaan_id": "c756b227-7aed-4a48-a326-9b155c18b42b"
+    },
+    {
+        "id": "beafff0d-ceae-4cf4-8c08-9afa3f495cb8",
+        "nama": "Nike Air Jordan 1 Mid SE Craft Obsidian 100% Original",
+        "harga": 2899000,
+        "stok": 150,
+        "kode": "SNEAKER1",
+        "perusahaan_id": "ef0ff711-9ef8-4df2-924e-4972281f99c3"
+    },
+    {
+        "id": "b17b98d6-b9c5-44e2-81da-e1748bcd167e",
+        "nama": "LENOVO GAMING 3i 2022 15 i5 12500H RAM 8GB 512SSD RTX3050 W11 ",
+        "harga": 13199000,
+        "stok": 20,
+        "kode": "LAPTOP1",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "a3987f2f-8ab2-49d8-ad7e-a6f60cb5ba08",
+        "nama": "LENOVO IDEAPAD SLIM 3i 14 - i3 1115G4 8GB 512SSD W10+OHS 14.0FHD - UNIT, 8GB 256SSD",
+        "harga": 6039000,
+        "stok": 20,
+        "kode": "LAPTOP2",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "a314c16d-fdc5-451c-9180-f602aee91379",
+        "nama": "Love Untold - Penguin Publishers",
+        "harga": 208000,
+        "stok": 100,
+        "kode": "BUKU1",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "9bf132e2-a564-4615-a5d0-f0ca5b57bef9",
+        "nama": "Anak Semua Bangsa oleh Pramoedya Ananta Toer",
+        "harga": 97000,
+        "stok": 100,
+        "kode": "BUKU11",
+        "perusahaan_id": "c756b227-7aed-4a48-a326-9b155c18b42b"
+    },
+    {
+        "id": "93a32f74-36ba-4700-b76e-ae3b909bfc64",
+        "nama": "Nike Dunk Low Retro White Black 100% Original",
+        "harga": 2099000,
+        "stok": 150,
+        "kode": "SNEAKER5",
+        "perusahaan_id": "ef0ff711-9ef8-4df2-924e-4972281f99c3"
+    },
+    {
+        "id": "7f4adaff-7339-4a0f-86f4-05a265a207ed",
+        "nama": "Samsung Galaxy Buds2 Pro",
+        "harga": 2089000,
+        "stok": 50,
+        "kode": "EAR1",
+        "perusahaan_id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24"
+    },
+    {
+        "id": "71b37ab6-2d44-42b1-b62d-f409bb10443d",
+        "nama": "Parade Diskon Nike Air Jordan 1 Low Black Medium Grey",
+        "harga": 2730000,
+        "stok": 150,
+        "kode": "SNEAKER3",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "67cd80c9-a763-4aba-966e-f9a1d5a11869",
+        "nama": "Laskar Pelangi oleh Andrea Hirata",
+        "harga": 86000,
+        "stok": 100,
+        "kode": "BUKU14",
+        "perusahaan_id": "c756b227-7aed-4a48-a326-9b155c18b42b"
+    },
+    {
+        "id": "638d661c-76fc-49ae-803f-146d7c78e40e",
+        "nama": "Mangir oleh Pramoedya Ananta Toer",
+        "harga": 110000,
+        "stok": 100,
+        "kode": "BUKU12",
+        "perusahaan_id": "c756b227-7aed-4a48-a326-9b155c18b42b"
+    },
+    {
+        "id": "5d6bf367-f758-45e2-923d-52a1390eb357",
+        "nama": "Samsung Galaxy A13 LTE 4/64GB",
+        "harga": 1949000,
+        "stok": 50,
+        "kode": "HP2",
+        "perusahaan_id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24"
+    },
+    {
+        "id": "5b38b63e-5917-471a-8f56-c87ad9225acc",
+        "nama": "Laut Bercerita oleh Leila Salikha Chudori",
+        "harga": 95000,
+        "stok": 100,
+        "kode": "BUKU15",
+        "perusahaan_id": "c756b227-7aed-4a48-a326-9b155c18b42b"
+    },
+    {
+        "id": "59200727-e0cb-4863-925c-0dbfc00e009f",
+        "nama": "Nike Air Jordan 1 Low Panda (W)",
+        "harga": 2699000,
+        "stok": 150,
+        "kode": "SNEAKER2",
+        "perusahaan_id": "ef0ff711-9ef8-4df2-924e-4972281f99c3"
+    },
+    {
+        "id": "5567a6e6-61ef-4ed7-9e38-381fe03566c8",
+        "nama": "Sneakers Nike Air Force 1 Low Triple White",
+        "harga": 1799000,
+        "stok": 150,
+        "kode": "SNEAKER6",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "457da5c7-492c-48c3-a150-832b63d1beb8",
+        "nama": "Educated - Random House Publishers",
+        "harga": 210000,
+        "stok": 100,
+        "kode": "BUKU7",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "40dd0560-27ab-428b-a608-a04e1ad67e20",
+        "nama": "MSI STEALH 16 MERCEDES AMG - RTX4070 I9 13900H 32GB 2TB 16\"UHD+ OLED - NON BUNDLE, 32GB",
+        "harga": 44999000,
+        "stok": 5,
+        "kode": "LAPTOP6",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "34d09268-7d3e-45e6-81d7-4a4d8d272392",
+        "nama": "The Martian - The Crown Publishing Group",
+        "harga": 135000,
+        "stok": 100,
+        "kode": "BUKU9",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "3145deab-0caa-4f70-8b35-36bdf78362d1",
+        "nama": "Samsung Galaxy Watch6 Classic 47mm",
+        "harga": 5999000,
+        "stok": 50,
+        "kode": "WATCH2",
+        "perusahaan_id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24"
+    },
+    {
+        "id": "201153a7-5cc4-4b71-8f30-47f1dc2d3286",
+        "nama": "Design Monograph: Eames, 2nd Edition - OH! Life Publishers",
+        "harga": 288000,
+        "stok": 100,
+        "kode": "BUKU4",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "18978ade-df6a-4a79-bd86-828c3074c6df",
+        "nama": "Air Jordan 1 Low Vintage UNC Grey",
+        "harga": 3099000,
+        "stok": 150,
+        "kode": "SNEAKER4",
+        "perusahaan_id": "46e61a27-9270-4916-a32a-e6a398ef782c"
+    },
+    {
+        "id": "04145ec8-3c39-44f0-b0b9-c93038f96764",
+        "nama": "Why We Sleep - Penguin Publishers",
+        "harga": 215000,
+        "stok": 100,
+        "kode": "BUKU3",
+        "perusahaan_id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee"
+    },
+    {
+        "id": "014474a1-eb09-4383-b1d4-f37107db8709",
+        "nama": "Samsung Galaxy Watch6 Fresh 40mm",
+        "harga": 3999000,
+        "stok": 50,
+        "kode": "WATCH1",
+        "perusahaan_id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24"
     }
 ]

@@ -19,5 +19,40 @@
         "alamat": "Jl. Sipalingunik, Kurosawa",
         "no_telp": "+6236139096655",
         "kode": "UNQ"
+    },
+    {
+        "id": "46e61a27-9270-4916-a32a-e6a398ef782c",
+        "nama": "Agres ID",
+        "alamat": "Blk. A, Jl. Mangga Dua Square Jl. Gn. Sahari No.1, DKI Jakarta",
+        "no_telp": "081297009700",
+        "kode": "AGR"
+    },
+    {
+        "id": "e16bf2cc-d503-4d2c-8010-1a4e5f30ab24",
+        "nama": "Samsung",
+        "alamat": "Jl. Adityawarman Raya 39, DKI Jakarta",
+        "no_telp": "0557204355",
+        "kode": "SAM"
+    },
+    {
+        "id": "c756b227-7aed-4a48-a326-9b155c18b42b",
+        "nama": "Gramedia",
+        "alamat": "Jl. Puri Agung No.1, RT.1/RW.2, DKI Jakarta ",
+        "no_telp": "088218364881",
+        "kode": "GRA"
+    },
+    {
+        "id": "ffa9e5c4-740d-4a63-bfcb-4112b6e098ee",
+        "nama": "Periplus",
+        "alamat": "Jl. Muara Baru Ujung A-1, DKI Jakarta",
+        "no_telp": "0216613935",
+        "kode": "PER"
+    },
+    {
+        "id": "ef0ff711-9ef8-4df2-924e-4972281f99c3",
+        "nama": "True OG Kicks",
+        "alamat": "Jl. Aria Putra 9, DKI Jakarta",
+        "no_telp": "0217430371",
+        "kode": "OGK"
     }
 ]
