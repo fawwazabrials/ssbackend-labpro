@@ -19,7 +19,7 @@ services:
     image: postgres
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=FeEkFoVbhREGO0e4BI2l
+      - POSTGRES_PASSWORD=xi8Rs3t0X3K030HbfsJ0
     ports:
       - "5432:5432"
     volumes:
