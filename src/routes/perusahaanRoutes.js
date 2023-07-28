@@ -5,13 +5,13 @@ const router = express.Router();
 
 // GET POST /perusahaan
 router
-	.route("/")
+	.route("/perusahaan")
 	.get(perusahaanController.getPerusahaan)
 	.post(authorization, perusahaanController.createPerusahaan);
 
 // GET PUT DELETE /perusahaan/:id
 router
-	.route("/:id")
+	.route("/perusahaan/:id")
 	.get(perusahaanController.getPerusahaanById)
 	.put(authorization, perusahaanController.updatePerusahaan)
 	.delete(authorization, perusahaanController.deletePerusahaan);

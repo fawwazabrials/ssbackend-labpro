@@ -16,16 +16,15 @@ app.use(
 
 // Routes
 app.use("/", require("./routes/authRoutes"));
-app.use("/perusahaan", require("./routes/perusahaanRoutes"));
-app.use("/barang", require("./routes/barangRoutes"));
+app.use("/", require("./routes/perusahaanRoutes"));
+app.use("/", require("./routes/barangRoutes"));
 
 // Error handler
 app.use(errorHandler);
 
-app.get("/", (req, res) => {
-	res.status(200).send({
-		message: "Hello world!",
-	});
-});
+// Swagger
+const swaggerUi = require("swagger-ui-express");
+const swaggerFile = require("./swagger/swagger_output.json");
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 module.exports = app;

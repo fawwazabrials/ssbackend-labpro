@@ -1,26 +1,5 @@
 [
     {
-        "id": "95fdd1ee-34fb-4275-be07-90269c51663f",
-        "nama": "Levis",
-        "alamat": "Jl. Levis 14, Bandung",
-        "no_telp": "+62711536115",
-        "kode": "LEV"
-    },
-    {
-        "id": "a9b52133-1be0-473b-a0b0-678af5e962bd",
-        "nama": "Calvin Klein",
-        "alamat": "Jl. Calklen Barat, Depok",
-        "no_telp": "+62657956448",
-        "kode": "CKL"
-    },
-    {
-        "id": "8deeac74-6aea-4548-a81f-f83c5eef514c",
-        "nama": "UNIQLO",
-        "alamat": "Jl. Sipalingunik, Kurosawa",
-        "no_telp": "+6236139096655",
-        "kode": "UNQ"
-    },
-    {
         "id": "46e61a27-9270-4916-a32a-e6a398ef782c",
         "nama": "Agres ID",
         "alamat": "Blk. A, Jl. Mangga Dua Square Jl. Gn. Sahari No.1, DKI Jakarta",
@@ -54,5 +33,26 @@
         "alamat": "Jl. Aria Putra 9, DKI Jakarta",
         "no_telp": "0217430371",
         "kode": "OGK"
+    },
+    {
+        "id": "95fdd1ee-34fb-4275-be07-90269c51663f",
+        "nama": "Levis",
+        "alamat": "Jl. Levis 14, Bandung",
+        "no_telp": "+62711536115",
+        "kode": "LEV"
+    },
+    {
+        "id": "a9b52133-1be0-473b-a0b0-678af5e962bd",
+        "nama": "Calvin Klein",
+        "alamat": "Jl. Calklen Barat, Depok",
+        "no_telp": "+62657956448",
+        "kode": "CKL"
+    },
+    {
+        "id": "8deeac74-6aea-4548-a81f-f83c5eef514c",
+        "nama": "UNIQLO",
+        "alamat": "Jl. Sipalingunik, Kurosawa",
+        "no_telp": "+6236139096655",
+        "kode": "UNQ"
     }
 ]

@@ -5,13 +5,13 @@ const router = express.Router();
 
 // GET POST /barang
 router
-	.route("/")
+	.route("/barang")
 	.get(barangController.getBarang)
 	.post(authorization, barangController.createBarang);
 
 // GET PUT DELETE /barang/:id
 router
-	.route("/:id")
+	.route("/barang/:id")
 	.get(barangController.getBarangById)
 	.put(authorization, barangController.updateBarang)
 	.delete(authorization, barangController.deleteBarang);
