@@ -65,8 +65,10 @@ Pastikan [Docker](https://docs.docker.com/desktop/install/windows-install/) suda
 | 5  | DELETE       | perusahaan/:id     | Delete perusahaan                   |
 
 ## Bonuses
-Saat ini belum ada :<
-TODO: Documentation, automated testing, deployment
+1. Dokumentasi API  
+Dibuat dokumentasi API backend monolith menggunakan Swagger. Dokumentasi API dapat dilihat dengan mengunjungi route `/api-docs`. Jika ingin menggunakan endpoint yang protected, anda harus menyertakan JWT token yang diberikan ketika login di authorize.
+
+TODO: automated testing, deployment
 
 ## Created by
 Fawwaz Abrial Saffa
