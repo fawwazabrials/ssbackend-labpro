@@ -41,7 +41,7 @@ const login = (username, password) => {
 	return {
 		user: {
 			username: admin.username,
-			name: admin.name,
+			nama: admin.nama,
 		},
 		token,
 	};
