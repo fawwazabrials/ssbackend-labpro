@@ -67,8 +67,6 @@ Pastikan [Docker](https://docs.docker.com/desktop/install/windows-install/) suda
 ## Bonuses
 1. Dokumentasi API  
 Dibuat dokumentasi API backend monolith menggunakan Swagger. Dokumentasi API dapat dilihat dengan mengunjungi route `/api-docs`. Jika ingin menggunakan endpoint yang protected, anda harus menyertakan JWT token yang diberikan ketika login di authorize.
-2. Deployment  
-Single Service API di-deploy menggunakan Railway. API dapat dikunjungi pada [link ini](https://ssbackend-abil.up.railway.app) 
 
 ## Created by
 Fawwaz Abrial Saffa
