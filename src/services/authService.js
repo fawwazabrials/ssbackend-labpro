@@ -2,12 +2,11 @@ const jwt = require("jsonwebtoken");
 const createError = require("../utils/createError");
 const { getAdmin } = require("../repository/adminRepository");
 
-let admin;
-
-// get admin from db
-(async() => {
-	admin = await getAdmin();
-})();
+const admin = {
+	username: "admin",
+	name: "Admin Nih Gan",
+	password: "admin"
+}
 
 const verifyAdminCredentials = (username, password) => {
 	return username == admin.username && password == admin.password;
@@ -27,6 +26,8 @@ const verifyJWTToken = (token) => {
 };
 
 const login = (username, password) => {
+	console.log(admin)
+
 	if (!verifyAdminCredentials(username, password)) {
 		throw createError(401, "Wrong username or password");
 	}

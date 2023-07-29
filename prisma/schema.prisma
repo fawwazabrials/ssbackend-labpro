@@ -31,7 +31,7 @@ model Barang {
 }
 
 model Admin {
-  username String @unique
+  username String @id
   nama     String
   password String
 }
