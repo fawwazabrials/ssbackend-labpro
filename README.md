@@ -68,6 +68,9 @@ Pastikan [Docker](https://docs.docker.com/desktop/install/windows-install/) suda
 1. Dokumentasi API  
 Dibuat dokumentasi API backend monolith menggunakan Swagger. Dokumentasi API dapat dilihat dengan mengunjungi route `/api-docs`. Jika ingin menggunakan endpoint yang protected, anda harus menyertakan JWT token yang diberikan ketika login di authorize.
 
+## Notes  
+Untuk login sebagai admin dapat menggunakan akun dengan credentials username=`admin` dan password=`admin`
+
 ## Created by
 Fawwaz Abrial Saffa
 18221067
