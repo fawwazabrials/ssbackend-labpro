@@ -6,7 +6,6 @@ services:
     ports:
       - "5000:5000"
     env_file: .env
-    command: bash -c "npx prisma db push && npx prisma db seed && npm run start"
     depends_on:
       db:
         condition: service_healthy
